@@ -1,0 +1,60 @@
+body {
+    /* font-family: 'Rubik Dirt', cursive; */
+    font-family: 'Silkscreen', cursive;
+}
+/* Exempel på hur man kan använda span elementet */
+.span-test {
+    font-weight: 900;
+    font-family: monospace;
+    color: red;
+    font-size: 72px;
+}
+
+/* img {
+    width: 100%;
+} */
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    /* Padding på container krånglar till våran nav i header :) Kan du lösa detta på ett annat sätt? */
+    /* padding: 30px; */
+}
+
+header {
+    background-color: aqua;
+}
+
+nav {
+    background-color: orange;
+}
+
+main {
+    background-color: yellow;
+}
+
+.usps {
+    display: flex;
+    text-align: center;
+    /* Space-around ger oss lika mycket utrumme runtom alla flex-items */
+    justify-content: space-around;
+}
+
+.usps div {
+    padding: 25px;
+    width: 25%;
+}
+
+.img-container {
+    width: 50%;
+    margin: auto;
+}
+
+footer {
+    background-color: pink;
+}
+
+/* Så här kan man komma åt alla typer av ett element som ligger inuti ett annat */
+/* .container img {
+    width: 100%;
+} */
